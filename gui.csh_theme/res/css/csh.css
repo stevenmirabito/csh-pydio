@@ -1,0 +1,175 @@
+/* Global Toolbar */
+
+#ajxp_desktop[class*=" ajxp_ws-"] #global_toolbar,
+#ajxp_desktop[class^=ajxp_ws-] #global_toolbar {
+    background: #b0197e !important;
+}
+
+/* Hide Pydio Branding */
+
+.custom_top_title {
+    top: 11px !important;
+    font-size: 22px !important;
+}
+
+#pydio-go-pro_button {
+    display: none !important;
+}
+
+#perform_upgrade_button {
+    position: relative;
+    bottom: 2px;
+}
+
+body > div:nth-of-type(2) {
+    display: none;
+}
+
+/* Login Page Logo */
+
+.csh-login-logo {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-login_form .dialogTitle,
+.form-switch_language_form .dialogTitle {
+    background: none !important;
+}
+
+/* Homepage Panels */
+
+#home_account_pane #ws_legend .repoInfoBadge.main {
+    background: #b0197e !important;
+}
+
+/* Dialog Boxes */
+
+.dialogBox .dialogContent input[type=text]:focus,
+.dialogBox .dialogContent input[type=password]:focus {
+    border-color: #b0197e !important;
+}
+
+.dialogBox .dialogContent .dialogButtons .dialogButton {
+    color: #b0197e !important;
+}
+
+#progressBox .double-bounce1,
+#progressBox .double-bounce2 {
+    background-color: #b0197e !important;
+}
+
+/* Info Panel */
+
+#files_list_header #info_panel_share_toolbar a,
+#files_list_header #info_panel_toolbar a {
+    color: #b0197e !important;
+}
+
+#info_panel .infoPanelImagePreview div.infoPanelBasenameTitle,
+.form-ip_content_info_panel .infoPanelImagePreview div.infoPanelBasenameTitle {
+    color: #e11c52 !important;
+}
+
+.toolbars_round_button_mixin:hover span.ajxp_icon_span {
+    color: #e11c52 !important;
+}
+
+#files_list_header #display_toolbar a:hover span.ajxp_icon_span {
+    color: #e11c52 !important;
+}
+
+#info_panel .toolbarGroup a:hover {
+    color: #e11c52 !important;
+}
+
+#info_panel .toolbarGroup a:hover span.ajxp_icon_span {
+    color: #e11c52 !important;
+}
+
+#search_engine_cont #put_toolbar a:hover {
+    color: #e11c52 !important;
+}
+
+.colorcode-folder {
+    color: #e94974 !important;
+}
+
+/* Buttons */
+
+#fileInputContainerDiv:not(.folder_upload_button) .fakeUploadButton {
+    color: #e11c52 !important;
+    background: #fce8ee !important;
+}
+
+input.dialogButton:focus, input.dialogButton:hover {
+    background: #fce9f5 !important;
+}
+
+div.form-login_form div.dialogContent div.dialogButtons input.dialogButton, div.form-login_form_dynamic div.dialogContent div.dialogButtons input.dialogButton, div.form-reset-password div.dialogContent div.dialogButtons input.dialogButton, div.form-reset-password-ask div.dialogContent div.dialogButtons input.dialogButton, div.form-switch_language_form div.dialogContent div.dialogButtons input.dialogButton {
+    background-color: rgba(255,255,255,.39) !important;
+    color: #fff !important;
+}
+
+div.form-login_form div.dialogContent div.dialogButtons input.dialogButton:focus, div.form-login_form div.dialogContent div.dialogButtons input.dialogButton:hover, div.form-login_form_dynamic div.dialogContent div.dialogButtons input.dialogButton:focus, div.form-login_form_dynamic div.dialogContent div.dialogButtons input.dialogButton:hover, div.form-reset-password div.dialogContent div.dialogButtons input.dialogButton:focus, div.form-reset-password div.dialogContent div.dialogButtons input.dialogButton:hover, div.form-reset-password-ask div.dialogContent div.dialogButtons input.dialogButton:focus, div.form-reset-password-ask div.dialogContent div.dialogButtons input.dialogButton:hover, div.form-switch_language_form div.dialogContent div.dialogButtons input.dialogButton:focus, div.form-switch_language_form div.dialogContent div.dialogButtons input.dialogButton:hover {
+    background-color: rgba(255,255,255,.48) !important;
+}
+
+/* Accent Colors */
+
+.selected-focus,
+div.selected-webfx-tree-item {
+    background: #e11c52 !important;
+}
+
+.class-FilesList.fl-displayMode-thumb div.thumbnail_selectable_cell.selected-focus.fl-displayMode-thumbsize-small {
+    background-color: #e11c52 !important;
+}
+
+.class-FilesList.fl-displayMode-thumb div.thumbnail_selectable_cell.selected-focus div.thumbLabel {
+    background-color: #e11c52 !important;
+}
+
+.class-FilesList.fl-displayMode-thumb div.thumbnail_selectable_cell.selected-focus span.overlay-class-span {
+    color: #e11c52 !important;
+}
+
+.breadcrumbs-one i.ajxp-goto:hover {
+    color: #e11c52 !important;
+}
+
+div.menu.rootDirChooser a.hovered,
+div.menu.rootDirChooser a:hover {
+    background-color: #e11c52 !important;
+}
+
+#uploader_chooser ul {
+    border-bottom: 1px solid #e11c52 !important;
+}
+
+#uploader_chooser ul li.current {
+    border-bottom: 3px solid #e11c52 !important;
+}
+
+span:not(.toggleInactive).toggleHeader {
+    border-bottom: 3px solid #e11c52 !important;
+}
+
+.horizontal_tabulator span:not(.toggleInactive).toggleHeader {
+    background-color: #e11c52 !important;
+}
+
+.settings_main_pane div.selected-focus,
+.settings_main_pane div.selected-webfx-tree-item,
+.settings_main_pane tr.selected-focus {
+    background-color: #e11c52 !important;
+}
+
+.tabrow {
+    background-color: #e11c52 !important;
+}
+
+.flat_tabulator span.toggleHeader:first-of-type {
+    color: #e11c52 !important;
+}

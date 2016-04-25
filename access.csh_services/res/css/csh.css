@@ -1,0 +1,23 @@
+.dialogBox .dialogContent .dialogButtons .dialogButton {
+    color: #b0197e !important;
+}
+
+.dialogBox .dialogContent input[type=text]:focus,
+.dialogBox .dialogContent input[type=password]:focus {
+    border-color: #b0197e !important;
+}
+
+#progressBox .double-bounce1,
+#progressBox .double-bounce2 {
+    background-color: #b0197e !important;
+}
+
+#ajxp_desktop[class*=" ajxp_ws-"] #global_toolbar,
+#ajxp_desktop[class^=ajxp_ws-] #global_toolbar {
+    background: #b0197e !important;
+}
+
+#files_list_header #info_panel_share_toolbar a,
+#files_list_header #info_panel_toolbar a {
+    color: #b0197e !important;
+}

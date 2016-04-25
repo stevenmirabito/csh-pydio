@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ajxp_plugin  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:../core.ajaxplorer/ajxp_registry.xsd" name="csh_theme" enabled="true" label="CONF_MESSAGE[CSH Theme]" description="CONF_MESSAGE[CSH theme for Pydio.]" >
+    <plugin_info>
+        <core_relation packaged="false" tested_version="6.4.0"/>
+        <plugin_author>Steven Mirabito (smirabito@csh.rit.edu)</plugin_author>
+        <plugin_version>0.1</plugin_version>
+    </plugin_info>
+    <client_settings>
+        <resources>
+            <i18n namespace="csh_theme" path="plugins/gui.csh_theme/res/i18n"/>
+            <css file="plugins/gui.csh_theme/res/css/csh.css" autoload="true"/>
+            <js file="plugins/gui.csh_theme/res/js/csh.js" autoload="true"/>
+        </resources>
+    </client_settings>
+</ajxp_plugin>

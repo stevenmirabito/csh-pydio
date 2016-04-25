@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ajxp_plugin  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:../core.ajaxplorer/ajxp_registry.xsd" name="csh_services" enabled="false" label="CONF_MESSAGE[CSH Services]" description="CONF_MESSAGE[CSH service integrations for Pydio.]" >
+    <plugin_info>
+        <core_relation packaged="false" tested_version="6.4.0"/>
+        <plugin_author>Steven Mirabito (smirabito@csh.rit.edu)</plugin_author>
+        <plugin_version>0.1</plugin_version>
+    </plugin_info>
+    <class_definition filename="plugins/access.csh_services/class.CSHServices.php" classname="CSHServices"/>
+    <client_settings>
+        <resources>
+            <i18n namespace="csh_services" path="plugins/access.csh_services/res/i18n"/>
+        </resources>
+    </client_settings>
+    <class_definition filename="plugins/access.csh_services/class.CSHServices.php" classname="CSHServices"/>
+</ajxp_plugin>
